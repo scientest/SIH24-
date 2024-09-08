@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    
+    margin: 0;
+     
+}
+.heading{
+    font-weight: 100;
+     
+}
+.container {
+    margin-left: 100px;
+    background-color:  #B5BCB9;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 440px;
+    height: 400px;
+    text-align: center;
+    background-image:url('color.jpg' );
+}
+.img{
+    /* background-color:  #B5BCB9; */
+    padding: 0px;
+    margin-left: 150px;
+    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); */
+    /* border-radius: 10px; */
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    background-image:url('uni3.jpg');
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.google-btn img {
+    margin-right: 10px;
+}
+
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #aeb5bb; */
+    background-color:#58c5e9;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+}
+.googleicon{
+    width:25px;
+    height:25px;
+}
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:  #4d3a70;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color:  #2c0378;
+}
